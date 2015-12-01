@@ -7,7 +7,7 @@ HEADER
   9
 $ACADVER
   1
-AC1021
+AC1014
   9
 $DWGCODEPAGE
   3
@@ -361,7 +361,7 @@ $DIMLDRBLK
   1
 STANDARD
   9
-$DIMLUNIT
+$DIMUNIT
  70
     2
   9
@@ -376,42 +376,6 @@ $DIMLWE
 $DIMTMOVE
  70
     0
-  9
-$DIMFXL
- 40
-1
-  9
-$DIMFXLON
- 70
-    0
-  9
-$DIMJOGANG
- 40
-0.7854
-  9
-$DIMTFILL
- 70
-    0
-  9
-$DIMTFILLCLR
- 70
-    0
-  9
-$DIMARCSYM
- 70
-    0
-  9
-$DIMLTYPE
-  6
-
-  9
-$DIMLTEX1
-  6
-
-  9
-$DIMLTEX2
-  6
-
   9
 $LUNITS
  70
@@ -454,6 +418,10 @@ $THICKNESS
 0
   9
 $LIMCHECK
+ 70
+    0
+  9
+$BLIPMODE
  70
     0
   9
@@ -869,10 +837,6 @@ $LWDISPLAY
 290
     0
   9
-$INSUNITS
- 70
-    0
-  9
 $HYPERLINKBASE
   1
 
@@ -904,162 +868,6 @@ $PSVPSCALE
 $OLESTARTUP
 290
     0
-  9
-$SORTENTS
-280
-  127
-  9
-$INDEXCTL
-280
-    0
-  9
-$HIDETEXT
-280
-    1
-  9
-$XCLIPFRAME
-290
-    0
-  9
-$HALOGAP
-280
-    0
-  9
-$OBSCOLOR
- 70
-  257
-  9
-$OBSLTYPE
-280
-    0
-  9
-$INTERSECTIONDISPLAY
-280
-    0
-  9
-$INTERSECTIONCOLOR
- 70
-  257
-  9
-$DIMASSOC
-280
-    0
-  9
-$PROJECTNAME
-  1
-
-  9
-$CAMERADISPLAY
-290
-    0
-  9
-$LENSLENGTH
- 40
-50
-  9
-$CAMERAHEIGHT
- 40
-0
-  9
-$STEPSPERSEC
- 40
-2
-  9
-$STEPSIZE
- 40
-50
-  9
-$3DDWFPREC
- 40
-2
-  9
-$PSOLWIDTH
- 40
-5
-  9
-$PSOLHEIGHT
- 40
-80
-  9
-$LOFTANG1
- 40
-1.570796326794897
-  9
-$LOFTANG2
- 40
-1.570796326794897
-  9
-$LOFTMAG1
- 40
-0
-  9
-$LOFTMAG2
- 40
-0
-  9
-$LOFTPARAM
- 70
-    7
-  9
-$LOFTNORMALS
-280
-    1
-  9
-$LATITUDE
- 40
-1
-  9
-$LONGITUDE
- 40
-1
-  9
-$NORTHDIRECTION
- 40
-0
-  9
-$TIMEZONE
- 70
--8000
-  9
-$LIGHTGLYPHDISPLAY
-280
-    1
-  9
-$TILEMODELIGHTSYNCH
-280
-    1
-  9
-$SOLIDHIST
-280
-    1
-  9
-$SHOWHIST
-280
-    1
-  9
-$DWFFRAME
-280
-    2
-  9
-$DGNFRAME
-280
-    0
-  9
-$REALWORLDSCALE
-290
-    1
-  9
-$INTERFERECOLOR
- 62
-    1
-  9
-$CSHADOW
-280
-    0
-  9
-$SHADOWPLANELOCATION
- 40
-0
   0
 ENDSEC
   0
@@ -1078,8 +886,6 @@ TABLE
 VPORT
   5
 8
-330
-0
 100
 AcDbSymbolTable
  70
@@ -1164,50 +970,6 @@ AcDbViewportTableRecord
     0
  78
     0
-281
-    0
- 65
-    1
-110
-0
-120
-0
-130
-0
-111
-1
-121
-0
-131
-0
-112
-0
-122
-1
-132
-0
- 79
-    0
-146
-0
-348
-10020
- 60
-    7
- 61
-    5
-292
-1
-282
-    1
-141
-0
-142
-0
- 63
-  250
-421
-3358443
   0
 ENDTAB
   0
@@ -1216,8 +978,6 @@ TABLE
 LTYPE
   5
 5
-330
-0
 100
 AcDbSymbolTable
  70
@@ -1226,8 +986,6 @@ AcDbSymbolTable
 LTYPE
   5
 14
-330
-5
 100
 AcDbSymbolTableRecord
 100
@@ -1248,8 +1006,6 @@ ByBlock
 LTYPE
   5
 15
-330
-5
 100
 AcDbSymbolTableRecord
 100
@@ -1270,8 +1026,6 @@ ByLayer
 LTYPE
   5
 16
-330
-5
 100
 AcDbSymbolTableRecord
 100
@@ -2208,8 +1962,6 @@ TABLE
 LAYER
   5
 2
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2266,8 +2018,6 @@ TABLE
 STYLE
   5
 3
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2308,8 +2058,6 @@ TABLE
 VIEW
   5
 6
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2322,8 +2070,6 @@ TABLE
 UCS
   5
 7
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2336,8 +2082,6 @@ TABLE
 APPID
   5
 9
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2346,8 +2090,6 @@ AcDbSymbolTable
 APPID
   5
 12
-330
-9
 100
 AcDbSymbolTableRecord
 100
@@ -2360,8 +2102,6 @@ ACAD
 APPID
   5
 4C
-330
-9
 100
 AcDbSymbolTableRecord
 100
@@ -2378,15 +2118,9 @@ TABLE
 DIMSTYLE
   5
 A
-330
-0
 100
 AcDbSymbolTable
  70
-    1
-100
-AcDbDimStyleTable
- 71
     1
   0
 DIMSTYLE
@@ -2436,8 +2170,6 @@ Standard
 1
 147
 0.625
-148
-0
  71
     0
  72
@@ -2453,8 +2185,6 @@ Standard
  77
     0
  78
-    0
- 79
     0
 170
     0
@@ -2474,8 +2204,8 @@ Standard
     0
 178
     0
-179
-    0
+270
+    2
 271
     4
 272
@@ -2485,14 +2215,6 @@ Standard
 274
     2
 275
-    0
-276
-    0
-277
-    2
-278
-   46
-279
     0
 280
     0
@@ -2508,18 +2230,12 @@ Standard
     0
 286
     0
+287
+    3
 288
     0
-289
-    3
 340
 Standard
-341
-
-371
-   -2
-372
-   -2
   0
 ENDTAB
   0
@@ -2528,8 +2244,6 @@ TABLE
 BLOCK_RECORD
   5
 1
-330
-0
 100
 AcDbSymbolTable
  70
@@ -2538,164 +2252,92 @@ AcDbSymbolTable
 BLOCK_RECORD
   5
 1F
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 *Model_Space
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 1E
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 *Paper_Space
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 4E
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_front
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 51
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_top
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 54
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_top-0
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 57
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_top-1
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 5A
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_front-0
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 5D
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_top-2
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
 60
-330
-1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
 profil_15_15_top-3
- 70
-    0
-280
-    1
-281
-    0
   0
 ENDTAB
   0
@@ -2708,8 +2350,6 @@ BLOCKS
 BLOCK
   5
 20
-330
-1F
 100
 AcDbEntity
   8
@@ -2734,8 +2374,6 @@ AcDbBlockBegin
 ENDBLK
   5
 21
-330
-1F
 100
 AcDbEntity
   8
@@ -2746,8 +2384,6 @@ AcDbBlockEnd
 BLOCK
   5
 1C
-330
-1B
 100
 AcDbEntity
   8
@@ -2772,8 +2408,6 @@ AcDbBlockBegin
 ENDBLK
   5
 1D
-330
-1F
 100
 AcDbEntity
   8
@@ -2784,8 +2418,6 @@ AcDbBlockEnd
 BLOCK
   5
 4F
-330
-4E
 100
 AcDbEntity
   8
@@ -2808,8 +2440,6 @@ profil_15_15_front
 ENDBLK
   5
 50
-330
-4E
 100
 AcDbEntity
   8
@@ -2820,8 +2450,6 @@ AcDbBlockEnd
 BLOCK
   5
 52
-330
-51
 100
 AcDbEntity
   8
@@ -2852,8 +2480,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -2876,8 +2502,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -2900,8 +2524,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -2916,8 +2538,6 @@ AcDbLine
 ENDBLK
   5
 53
-330
-51
 100
 AcDbEntity
   8
@@ -2928,8 +2548,6 @@ AcDbBlockEnd
 BLOCK
   5
 55
-330
-54
 100
 AcDbEntity
   8
@@ -2960,8 +2578,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -2984,8 +2600,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3008,8 +2622,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3024,8 +2636,6 @@ AcDbLine
 ENDBLK
   5
 56
-330
-54
 100
 AcDbEntity
   8
@@ -3036,8 +2646,6 @@ AcDbBlockEnd
 BLOCK
   5
 58
-330
-57
 100
 AcDbEntity
   8
@@ -3068,8 +2676,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3092,8 +2698,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3116,8 +2720,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3132,8 +2734,6 @@ AcDbLine
 ENDBLK
   5
 59
-330
-57
 100
 AcDbEntity
   8
@@ -3144,8 +2744,6 @@ AcDbBlockEnd
 BLOCK
   5
 5B
-330
-5A
 100
 AcDbEntity
   8
@@ -3168,8 +2766,6 @@ profil_15_15_front-0
 ENDBLK
   5
 5C
-330
-5A
 100
 AcDbEntity
   8
@@ -3180,8 +2776,6 @@ AcDbBlockEnd
 BLOCK
   5
 5E
-330
-5D
 100
 AcDbEntity
   8
@@ -3212,8 +2806,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3236,8 +2828,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3260,8 +2850,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3276,8 +2864,6 @@ AcDbLine
 ENDBLK
   5
 5F
-330
-5D
 100
 AcDbEntity
   8
@@ -3288,8 +2874,6 @@ AcDbBlockEnd
 BLOCK
   5
 61
-330
-60
 100
 AcDbEntity
   8
@@ -3320,8 +2904,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3344,8 +2926,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3368,8 +2948,6 @@ cut
 ByLayer
  62
     8
-370
-   -1
 100
 AcDbLine
  10
@@ -3384,8 +2962,6 @@ AcDbLine
 ENDBLK
   5
 62
-330
-60
 100
 AcDbEntity
   8
@@ -3410,18 +2986,16 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbLine
  10
--25.00000000000001
+0
  20
-45
+0
  11
--25
+1.4210854715202e-14
  21
-90
+45
   0
 LINE
   5
@@ -3434,18 +3008,16 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbLine
  10
--70.00000000000001
+-45
  20
-45
+0
  11
--25.00000000000001
+0
  21
-45
+0
   0
 LINE
   5
@@ -3458,18 +3030,16 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbLine
  10
--70.00000000000001
+-45
  20
-60.0667409058085
+15.0667409058085
  11
--70.00000000000001
+-45
  21
-45
+0
   0
 ARC
   5
@@ -3482,14 +3052,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--68.00000000000001
+-43
  20
-60.06674090580847
+15.06674090580847
  40
 2
 100
@@ -3510,14 +3078,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--70
+-44.99999999999999
  20
-90
+45
  40
 28
 100
@@ -3538,14 +3104,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--40.06674090580844
+-15.06674090580843
  20
-88
+43
  40
 2
 100
@@ -3566,18 +3130,16 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbLine
  10
--25
+1.4210854715202e-14
  20
-90
+45
  11
--40.06674065292735
+-15.06674065292734
  21
-90
+45
   0
 CIRCLE
   5
@@ -3590,14 +3152,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--32.50000000000001
+-7.5
  20
-52.5
+7.5
  40
 1.5
   0
@@ -3612,14 +3172,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--47.5
+-22.49999999999999
  20
-52.5
+7.5
  40
 1.5
   0
@@ -3634,14 +3192,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--64.90927210561478
+-39.90927210561476
  20
-52.5
+7.5
  40
 1.5
   0
@@ -3656,14 +3212,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--32.5
+-7.499999999999986
  20
-84.90927210561475
+39.90927210561475
  40
 1.5
   0
@@ -3678,14 +3232,12 @@ cut
 ByLayer
  62
   256
-370
-   -1
 100
 AcDbCircle
  10
--32.50000000000003
+-7.500000000000014
  20
-67.5
+22.5
  40
 1.5
   0
@@ -3698,8 +3250,6 @@ OBJECTS
 DICTIONARY
   5
 C
-330
-0
 100
 AcDbDictionary
 281
